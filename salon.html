@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trendy Cutzz – Premium Salon</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="salon.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">Trendy<span>Cutzz</span></div>
+  <ul class="nav-links">
+    <li><a href="#services">Services</a></li>
+    <li><a href="#appointment">Book</a></li>
+    <li><a href="#info">Info</a></li>
+  </ul>
+  <button class="nav-cta" onclick="document.getElementById('appointment').scrollIntoView({behavior:'smooth'})">Book Now</button>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <div class="hero-tag">Premium Salon Experience</div>
+    <h1>Style That <em>Speaks</em><br>For Itself</h1>
+    <p class="hero-sub">Ramanathapuram's finest grooming destination. From precision cuts to luxurious treatments — walk in, transform out.</p>
+    <div class="hero-actions">
+      <button class="btn-primary" onclick="document.getElementById('appointment').scrollIntoView({behavior:'smooth'})">Book Appointment</button>
+      <a class="btn-ghost" href="#services">View Services</a>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<div class="stats-bar">
+  <div class="stat-item reveal"><div class="stat-num">2000+</div><div class="stat-label">Happy Clients</div></div>
+  <div class="stat-item reveal"><div class="stat-num">8+</div><div class="stat-label">Years Experience</div></div>
+  <div class="stat-item reveal"><div class="stat-num">15+</div><div class="stat-label">Services Offered</div></div>
+  <div class="stat-item reveal"><div class="stat-num">4.9★</div><div class="stat-label">Customer Rating</div></div>
+</div>
+
+<!-- SERVICES -->
+<section id="services" class="section-pad">
+  <div class="section-header reveal">
+    <div class="section-tag">— Our Services</div>
+    <h2 class="section-title">What We <em>Offer</em></h2>
+    <p class="section-desc">Expert grooming services tailored to your style. All prices are transparent — no surprises.</p>
+  </div>
+  <div class="services-grid">
+    <div class="service-card reveal"><span class="service-icon">✂️</span><div class="service-name">Hair Cut</div><div class="service-desc">Precision cuts for all hair types. Scissor cut, machine cut, layered styling — crafted to frame your face perfectly.</div><div class="service-price"><span class="price-from">from</span><span class="price-amount">₹150</span></div></div>
+    <div class="service-card reveal"><span class="service-icon">💈</span><div class="service-name">Hair Colour</div><div class="service-desc">Global colour, highlights, balayage & ombre. We use premium salon-grade colour for vibrant, long-lasting results.</div><div class="service-price"><span class="price-from">from</span><span class="price-amount">₹800</span></div></div>
+    <div class="service-card reveal"><span class="service-icon">🌀</span><div class="service-name">Rebonding & Smoothening</div><div class="service-desc">Frizz-free, silky-smooth finish. Permanent rebonding or keratin smoothening based on your hair texture.</div><div class="service-price"><span class="price-from">from</span><span class="price-amount">₹2,500</span></div></div>
+    <div class="service-card reveal"><span class="service-icon">💆</span><div class="service-name">Head Massage & Spa</div><div class="service-desc">Deep scalp massage with nourishing oils. Relax, de-stress, and boost hair health in one session.</div><div class="service-price"><span class="price-from">from</span><span class="price-amount">₹350</span></div></div>
+    <div class="service-card reveal"><span class="service-icon">🧖</span><div class="service-name">Facial & Skin Treatment</div><div class="service-desc">Classic, de-tan, brightening, and gold facials. Cleanse, exfoliate, and glow with customised skincare.</div><div class="service-price"><span class="price-from">from</span><span class="price-amount">₹500</span></div></div>
+    <div class="service-card reveal"><span class="service-icon">🪒</span><div class="service-name">Shave & Beard Grooming</div><div class="service-desc">Classic hot-towel shave, beard trim, shape & styling. Look sharp every single day.</div><div class="service-price"><span class="price-from">from</span><span class="price-amount">₹100</span></div></div>
+    <div class="service-card reveal"><span class="service-icon">💅</span><div class="service-name">Manicure & Pedicure</div><div class="service-desc">Classic, spa, and gel options. Trim, shape, buff and polish — hands and feet that look their best.</div><div class="service-price"><span class="price-from">from</span><span class="price-amount">₹400</span></div></div>
+    <div class="service-card reveal"><span class="service-icon">🌿</span><div class="service-name">Hair Treatment</div><div class="service-desc">Protein treatment, deep conditioning, anti-dandruff & scalp care. Restore life to damaged hair.</div><div class="service-price"><span class="price-from">from</span><span class="price-amount">₹600</span></div></div>
+    <div class="service-card reveal"><span class="service-icon">👰</span><div class="service-name">Bridal Makeup</div><div class="service-desc">Complete bridal package — makeup, hair styling, saree draping. Look unforgettable on your big day.</div><div class="service-price"><span class="price-from">from</span><span class="price-amount">₹5,000</span></div></div>
+  </div>
+</section>
+
+<!-- APPOINTMENT BOOKING -->
+<section id="appointment">
+  <div class="appt-layout">
+    <div class="appt-info reveal">
+      <div class="section-tag">— Book Online</div>
+      <h2>Skip the Wait,<br><em>Book Ahead</em></h2>
+      <p>Reserve your slot in advance and walk in at your scheduled time — no waiting, no rush. Our stylists will be ready just for you.</p>
+      <ul class="appt-perks">
+        <li><span class="perk-dot">✓</span> Confirm your time slot instantly</li>
+        <li><span class="perk-dot">✓</span> Choose your preferred service & stylist</li>
+        <li><span class="perk-dot">✓</span> Get WhatsApp reminder before your visit</li>
+        <li><span class="perk-dot">✓</span> Easy rescheduling, no cancellation fee</li>
+        <li><span class="perk-dot">✓</span> Priority seating for booked customers</li>
+      </ul>
+    </div>
+    <div class="appt-form reveal">
+      <div class="form-title">📅 Reserve Your Appointment</div>
+      <div class="form-row">
+        <div class="form-group"><label>First Name</label><input type="text" id="fname" placeholder="Karthik" /></div>
+        <div class="form-group"><label>Last Name</label><input type="text" id="lname" placeholder="Kumar" /></div>
+      </div>
+      <div class="form-group"><label>Phone Number</label><input type="tel" id="phone" placeholder="+91 75503 21706" /></div>
+      <div class="form-group">
+        <label>Select Service</label>
+        <select id="service">
+          <option value="">— Choose a service —</option>
+          <option value="haircut">Hair Cut – from ₹150</option>
+          <option value="colour">Hair Colour – from ₹800</option>
+          <option value="rebonding">Rebonding & Smoothening – from ₹2,500</option>
+          <option value="massage">Head Massage & Spa – from ₹350</option>
+          <option value="facial">Facial & Skin Treatment – from ₹500</option>
+          <option value="shave">Shave & Beard Grooming – from ₹100</option>
+          <option value="manicure">Manicure & Pedicure – from ₹400</option>
+          <option value="treatment">Hair Treatment – from ₹600</option>
+          <option value="bridal">Bridal Makeup – from ₹5,000</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <div class="form-group"><label>Preferred Date</label><input type="date" id="appt-date" /></div>
+        <div class="form-group">
+          <label>Preferred Time</label>
+          <select id="appt-time">
+            <option value="">— Select —</option>
+            <option>09:00 AM</option><option>10:00 AM</option><option>11:00 AM</option>
+            <option>12:00 PM</option><option>01:00 PM</option><option>02:00 PM</option>
+            <option>03:00 PM</option><option>04:00 PM</option><option>05:00 PM</option>
+            <option>06:00 PM</option><option>07:00 PM</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group"><label>Special Requests (optional)</label><textarea id="notes" placeholder="Any preferences or notes for your stylist…"></textarea></div>
+      <button class="form-submit" onclick="submitAppointment()">Confirm Appointment →</button>
+      <div class="success-msg" id="success-msg">✅ Appointment confirmed! We'll send a WhatsApp reminder to your number before your visit.</div>
+    </div>
+  </div>
+</section>
+
+<!-- INFO -->
+<section id="info" class="section-pad">
+  <div class="section-header reveal">
+    <div class="section-tag">— Find Us</div>
+    <h2 class="section-title">Visit <em>Trendy Cutzz</em></h2>
+  </div>
+  <div class="info-grid">
+    <div class="info-card reveal">
+      <div class="info-icon">📍</div>
+      <div class="info-label">Our Location</div>
+      <div class="info-content">Trendy Cutzz Salon<br>Bazar Street, R.S.Mangalam<br>Ramanathapuram, Tamil Nadu</div>
+    </div>
+    <div class="info-card reveal">
+      <div class="info-icon">🕐</div>
+      <div class="info-label">Working Hours</div>
+      <div class="info-content">Mon, Wed – Sat: 9:00 AM – 8:00 PM<br>Sunday: 10:00 AM – 6:00 PM<br>Tuesday: Closed 🚫</div>
+    </div>
+    <div class="info-card reveal">
+      <div class="info-icon">📞</div>
+      <div class="info-label">Contact Us</div>
+      <div class="info-content">📱 +91 75503 21706<br>💬 WhatsApp available<br>📷 @trendycutzz</div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">Trendy<span>Cutzz</span></div>
+  <div class="footer-copy">© 2026 TrendyCutzz. All rights reserved. Ramanathapuram, Tamil Nadu.</div>
+</footer>
+
+<script src="salon.js"></script>
+</body>
+</html>
